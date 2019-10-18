@@ -8,5 +8,5 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  nds[0].pp
+  p nds[0].pp
 end
