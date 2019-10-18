@@ -11,9 +11,9 @@ end
 def print_first_directors_movie_titles
   
   movie_index = 0
-  while movie_index < directors_database[0][movie_index].count do
+  while movie_index < directors_database[0][movie_index].length do
     title_index = 0
-    while titel_index < directors_database[0][movie_index].count do
+    while titel_index < directors_database[0][movie_index].length do
       puts directors_database[row_index][element_index]
     titel_index += 1
   end
